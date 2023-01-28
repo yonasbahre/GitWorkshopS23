@@ -33,5 +33,3 @@ while option != 0:
         myOrder.print_order()
     if option == 1:
         myOrder.add_lemonade()
-    if option == 3:
-        myOrder.add_lemonade()
