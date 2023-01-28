@@ -26,11 +26,12 @@ while option != 0:
     print('16. Chicken Sandwich')
     print('0. Done')
     print('Select an option: ')
-    print('lol')
 
     option = int(input())
 
     if option == 0:
         myOrder.print_order()
     if option == 1:
+        myOrder.add_lemonade()
+    if option == 3:
         myOrder.add_lemonade()
