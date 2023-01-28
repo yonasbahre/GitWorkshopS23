@@ -12,3 +12,9 @@ class Order:
         self.total_cost += 7.5
         self.items += ('lemonade')
         print("Added lemonade!")
+
+    def add_cookie(self):
+        self.total_cost += 9999.99
+        self.items += ('cookie')
+        print('Added cookie!')
+    
